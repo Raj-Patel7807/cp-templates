@@ -1,0 +1,38 @@
+# Compiled binaries
+*.exe
+*.out
+*.o
+*.obj
+*.class
+
+# Debug files
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+
+# JetBrains (CLion, IntelliJ, etc.)
+.idea/
+cmake-build-*/
+
+# Mac system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# CodeBlocks / Dev-C++
+*.layout
+*.depend
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+Makefile
+
+# Misc
+*.swp
