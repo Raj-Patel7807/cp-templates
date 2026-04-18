@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define ll long long int
+
 class DSU {
 private :
-    #define ll long long int
-
     vector<ll> parent, size, edge, rank, dist;
 public :
     DSU(ll n) {

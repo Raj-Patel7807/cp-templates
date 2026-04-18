@@ -1,10 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+#define ll long long int
+
 class segTree {
 private:
-    #define ll long long int
-
     struct Node {
         ll sum, lazyAdd, lazySet;
         Node() : sum(0), lazyAdd(0), lazySet(LLONG_MIN) {}
